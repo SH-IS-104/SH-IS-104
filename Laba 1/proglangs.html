@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lab1 - IS-104</title>
+<link rel="stylesheet" type="text/css" href="proglangs.css" />
+
+       <script src="proglangs.js"></script>
+
+
+</head>
+<body>
+<h2>En liste med Programmeringsspråker:</h2><br>
+        
+<style type="text/css">
+
+.a {color:red;}
+.b {color:brown;}
+.c {color:blue;}
+.d {color:green;}
+.e {color:orange;} 
+.f {color:yellow;}
+.g {color:purple;}
+
+</style> 
+
+<!--Denne CSS koden bruker jeg til å sette eller forandre farger på texten (paragrafene) og posisjonere elementer.  Bruker denne CSS koden til å forandre på fargen på alle
+paragrafene.
+-->
+        
+<li class="a">ActionScript</li>
+<li class="a">AppleScript</li>
+<li class="a">Asp</li>
+<li class="b">BASIC</li>
+<li class="b">C</li>
+<li class="b">C++</li>
+<li class="c">Clojure</li>      
+<li class="c">COBOL</li>
+<li class="c">ColdFusion</li>
+<li class="d">Erlang</li>
+<li class="d">Fortran</li>
+<li class="d">Groovy</li>
+<li class="e">Haskell</li>
+<li class="e">Java</li>
+<li class="e">JavaScript</li>
+<li class="f">Lisp</li>
+<li class="f">Perl</li>
+<li class="f">PHP</li>
+<li class="g">Python</li>
+<li class="g">Ruby</li>
+<li class="g">Scala</li>
+<li class="g">Scheme</li> 
+
+<br>
+<h3>Velge et Programmeringsspråk:<h3>
+
+<!-- Her lager jeg en liste (rullegardin) som du kan velge prågrammeringsspråk fra, et programmeringsspråk av gangen. -->
+
+<form action="oppg1_form.asp" method="post/get">
+
+<select>
+<option>ActionScript</option>
+<option>Applescript</option>
+<option>Asp</option>
+<option>BASIC</option>
+<option>C</option>
+<option>C++</option>
+<option>Clojure</option>
+<option>COBOL</option>
+<option>ColdFusion</option>
+<option>Erlang</option>
+<option>Fortran</option>
+<option>Groovy</option>
+<option>Haskell</option>
+<option>Java</option>
+<option>Javascript</option>
+<option>Lisp</option>
+<option>Perl</option>
+<option>PHP</option>
+<option>Python</option>
+<option>Ruby</option>
+<option>Scala</option>
+<option>Scheme</option>
+</select>
+
+</form>
+
+<br>        
+<h3>Velg Prågrammeringsspråk:<h3>
+
+
+        <form>
+        <select id="myList" onchange="progLang()">
+        <option></option>
+        <option>ActionScript</option>
+        <option>Applescript</option>
+        <option>Asp</option>
+        <option>BASIC</option>
+        <option>C</option>
+        <option>C++</option>
+        <option>Clojure</option>
+        <option>COBOL</option>
+        <option>ColdFusion</option>
+        <option>Erlang</option>
+        <option>Fortran</option>
+        <option>Groovy</option>
+        <option>Haskell</option>
+        <option>Java</option>
+        <option>Javascript</option>
+        <option>Lisp</option>
+        <option>Perl</option>
+        <option>PHP</option>
+        <option>Python</option>
+        <option>Ruby</option>
+        <option>Scala</option>
+        <option>Scheme</option>
+        </select>
+
+
+<p>Du har valg Programmeringsspråket: <span id="program"></span></p>
+</form>
+</body>
+</html>
+
